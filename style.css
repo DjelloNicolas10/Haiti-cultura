@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: rgb(191, 219, 240);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+   text-decoration: none;
+   color: rgb(0, 0, 0); 
+}
+
+/* chamamos a primeira dentro html para estilização */
+.section-01 {
+    padding: 300px;
+    background-image: url(imagem/mountains-615428_1280.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-01 button {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 12px;
+    color: #f1efef;
+    font-weight: 300;
+}
+
+.section-02 {
+    padding: 250px;
+    background-color: rgb(217, 223, 223);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-02 img {
+    width: 250px;
+    height: auto;
+}
+
+.section-02 h2 {
+    font-size: 30px;
+    color: black;
+    margin: 15px;
+    font-weight: 300;
+}
+
+.section-02 p {
+    color: black;
+    margin: 10px;
+    font-size: 15px ;
+}
