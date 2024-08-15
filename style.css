@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: rgb(191, 219, 240);
+    background-color: rgb(191, 208, 209);
     padding: 15px;
     display: flex;
     justify-content: space-around;
@@ -31,7 +31,7 @@ header nav ul li a {
    color: rgb(0, 0, 0); 
 }
 
-/* chamamos a primeira dentro html para estilização */
+/* chamamos a primeira sessão dentro html para estilização */
 .section-01 {
     padding: 300px;
     background-image: url(imagem/mountains-615428_1280.jpg);
@@ -47,7 +47,7 @@ header nav ul li a {
     width: 150px;
     height: 40px;
     background-color: transparent;
-    border-radius: 12px;
+    border-radius: 13px;
     color: #f1efef;
     font-weight: 300;
 }
@@ -68,11 +68,53 @@ header nav ul li a {
     font-size: 30px;
     color: black;
     margin: 15px;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .section-02 p {
     color: black;
-    margin: 10px;
+    margin: 20px;
     font-size: 15px ;
+    font-weight: 300;
+}
+
+.section-03 {
+    padding: 300px;
+    background-image: url(imagem/children-1807511_1280.jpg);
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section-03 h2 {
+    font-size: 30px;
+    color: white;
+    margin: 15px;
+    font-weight: 600;
+}
+
+.section-03 p {
+    color: white;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+footer div ul {
+    display: flex;
+}
+
+footer div ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+   
+
 }
