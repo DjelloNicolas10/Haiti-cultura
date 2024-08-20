@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     list-style: none;
 }
 
@@ -32,7 +32,7 @@ header nav ul li a {
    color: rgb(0, 0, 0);
 }
 
-/* Trabalhamos no efeito das lista (a) */
+/*Aplicando o efeito ao passar o Mouse das listas*/
 header nav ul li a:hover{
 color: white;
 transition: 0.6s;
@@ -60,7 +60,7 @@ transition: 0.6s;
 }
 
 /* Hover permite que o elemento a qual está trabalhando tem alguna ação para uma mudança melhor/ Trabalhamos nos efeitos do botão */
-.section-01 button:hover {
+.section-01 button:hover { /*Aplicando o efeito ao passar o Mouse*/
 background-color: rgb(167, 175, 143);
 transition: 0.8s;
 color: black;
@@ -79,7 +79,7 @@ cursor: pointer;
     height: auto;
 }
 
-/* Trabalhamos nos efeitos da imagem (HOVER) sempre*/
+/*Aplicando o efeito ao passar o Mouse*/
 .section-02 img:hover {
 width: 210px;
 transition: 0.6s;
@@ -154,4 +154,48 @@ footer nav ul li a {
 footer nav ul li a:hover {
     color: white;
     transition: 0.6s;
+}
+
+
+header i {  /*Estilização icone*/
+    color:black; /*Cor do icone*/
+    font-size: 40px; /*Tamanho do icone*/
+    background-color: rgba(255, 255, 255, 0.664); /*Cor de fundo do elemento*/
+    padding: 15px; /*Respiro/preenchimento da cor de fundo*/
+    border-radius: 10px; /*Arredondamento da caixa*/
+}
+
+header i:hover { /*Aplicando o efeito ao passar o Mouse*/
+    background-color: rgb(178, 109, 241); /*Cor de fundo alterado*/
+    transition: 0.6s; /*Transição do elemento*/
+}
+
+/* ESTILIZAÇÃO TELA 2 */
+.section-tela2 {
+    background-image: url(imagem/children-1807511_1280.jpg);
+    padding: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-tela2 p {
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+.section-tela2 span {
+    color: rgb(212, 169, 153);
+    font-weight: 600;
+}
+
+.section-nova {
+    padding: 200px ;
+    background-color: rgba(218, 206, 190, 0.822);
+}
+
+.section-actual {
+    padding: 200px;
+    background-color: rgba(148, 136, 136, 0.527);
 }
