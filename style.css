@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: Arial, Helvetica, sans-serif;
     list-style: none;
 }
 
@@ -156,12 +156,12 @@ footer nav ul li a:hover {
     transition: 0.6s;
 }
 
-
+/* Chamamos os icones(instagram, xtweeter, whatsapp etc.) para estilizar */
 header i {  /*Estilização icone*/
     color:black; /*Cor do icone*/
     font-size: 40px; /*Tamanho do icone*/
     background-color: rgba(255, 255, 255, 0.664); /*Cor de fundo do elemento*/
-    padding: 15px; /*Respiro/preenchimento da cor de fundo*/
+    padding: 20px; /*Respiro/preenchimento da cor de fundo*/
     border-radius: 10px; /*Arredondamento da caixa*/
 }
 
@@ -192,10 +192,132 @@ header i:hover { /*Aplicando o efeito ao passar o Mouse*/
 
 .section-nova {
     padding: 200px ;
-    background-color: rgba(218, 206, 190, 0.822);
+   background: linear-gradient(200deg, #072175 8.33%, #b92a2a 100%);
 }
 
 .section-actual {
     padding: 200px;
     background-color: rgba(148, 136, 136, 0.527);
 }
+  /* Div pai dentro dele tem 3 caixa */
+.div-pai {
+    display: flex; /*Tornando os itens flex, deixando as caixas lado a lado*/
+    justify-content: center; /*Justificando os itens ao centro*/
+    margin-bottom: 20px;
+}
+
+/* Estilização das caixas (Div flho) */
+.div-pai div {
+    width: 150px; /*Largura da caixa*/
+    height: 200px;/*Altura da caixa*/
+    background-image: url(imagem/woman-6540891_1280.jpg); /*Cor de fundo da caixa*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px; /*Espaçamento entre as caixas(Div)*/
+
+} 
+
+.div-pai .div-filho1 {
+    background-image: url(imagem/man-1866572_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+/* Estilização do efeitos(Hover) na cada div filho1 */
+.div-filho1:hover {
+    width: 210px; /*largura do efeito da imagem*/
+    height: 290px; /*Altura do efeito da imagem*/
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 30px;  
+}
+
+.div-pai .div-filho2 {
+    background-image: url(imagem/man-4568761_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Estilização do efeitos(Hover) na cada div filho2 */
+.div-filho2:hover {
+    width: 210px; /*largura do efeito da imagem*/
+    height: 290px; /*Altura do efeito da imagem*/
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 30px; 
+}
+
+.div-pai .div-filho3 {
+    background-image: url(imagem/man-5693573_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+/* Estilização do efeitos(Hover) na cada div filho3 */
+.div-filho3:hover {
+    width: 210px; /*largura do efeito da imagem*/
+    height: 290px; /*Altura do efeito da imagem*/
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 30px;   
+}
+
+
+.div-pai2 {
+  display: flex; 
+  justify-content: center; 
+}
+
+.div-pai2 .div-filho-01 {
+    background-image: url(imagem/woman-6540891_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Estilização do efeitos(Hover) na cada div filho-01 */
+.div-filho-01:hover {
+    width: 210px; /*largura do efeito da imagem*/
+    height: 290px; /*Altura do efeito da imagem*/
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 30px;
+}
+
+.div-pai2 .div-filho-02 {
+    background-image: url(imagem/woman-2233820_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Estilização do efeitos(Hover) na cada div filho-02 */
+.div-filho-02:hover {
+    width: 210px; /*largura do efeito da imagem*/
+    height: 290px; /*Altura do efeito da imagem*/
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 30px;  
+}
+.div-pai2 .div-filho-03 {
+    background-image: url(imagem/ai-generated-8594039_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Estilização do efeitos(Hover) na cada div filho-03 */
+.div-filho-03:hover {
+    width: 210px;
+    height: 290px;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 30px;  
+}
+
+.div-pai2 div {
+    width: 150px; /*Largura da caixa*/
+    height: 200px;/*Altura da caixa*/
+    background-color: rgb(199, 177, 111); /*Cor de fundo da caixa*/
+    margin-right: 20px; /*Espaçamento entre as caixas(Div)*/
+}  
+
